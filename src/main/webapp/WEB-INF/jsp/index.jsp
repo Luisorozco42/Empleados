@@ -10,10 +10,32 @@
 <body>
 
     <div class="container">
-        <div class="text-center" style="margin: 30px">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/empleados">Sistema de empleados</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/empleados">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="empleados/agregar"> Empleado</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
+    <div class="container">
+        <div class="text-center" style="margin: 30px">
+            <h3>Sistema de Empleados</h3>
         </div>
-        Sistema de Empleados
     </div>
 
 
