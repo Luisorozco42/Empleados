@@ -6,7 +6,7 @@
         <h3>Agregar Empleado</h3>
     </div>
 
-    <form action="/empleados/agregar" modelAttribute="empleadoForma" method="post">
+    <form action="${urlAgregar}" modelAttribute="empleadoForma" method="post">
         <div class="mb3">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required>
@@ -29,7 +29,7 @@
 
         <div class="text-center">
             <button type="submit" class="btn btn-warning btn-sm me-3">Agregar</button>
-            <a href="/empleados" class="btn btn-danger btn-sm">Regresar</a>
+            <a href="${urlInicio}" class="btn btn-danger btn-sm">Regresar</a>
         </div>
     </form>
 </div>
